@@ -148,7 +148,6 @@ private class MyAdapter extends BaseAdapter{
                 Player.videod=video_id;
                 startActivity(new Intent(MainActivity.this,Player.class));
 
-
             }
         });
 
@@ -157,8 +156,5 @@ private class MyAdapter extends BaseAdapter{
         return myView;
     }
 }
-
-
-
 
 }
